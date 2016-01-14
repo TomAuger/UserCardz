@@ -5,3 +5,5 @@ class World extends React.Component {
     return <h1>World</h1>
   }
 }
+
+React.render(<World/>, document.getElementById("world"));
